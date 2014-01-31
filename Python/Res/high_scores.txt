@@ -1,0 +1,12 @@
+garb	75
+garby	75
+reed	75
+Madam	75
+a	25
+notten	10
+notnine	25
+noteight	5
+notseven	70
+notsix	75
+notfour	25
+notfour	25

@@ -1,0 +1,38 @@
+Some sample outputs:
+
+What is the mod number?
+13
+This is the first line.
+This line is last.
+This is the sixth line, so include it.
+This is the second line, so include it.
+This is the fourth line, so include it.
+
+
+Press Enter to Exit.
+
+What is the mod number?
+24
+This is the first line.
+This line is last.
+This is the third line.
+This is the fifth line.
+This is the second line, so include it.
+This is the fourth line, so include it.
+This is the sixth line, so include it.
+
+
+Press Enter to Exit.
+
+What is the mod number?
+2
+This is the first line.
+This line is last.
+This is the second line, so include it.
+This is the third line.
+This is the fourth line, so include it.
+This is the fifth line.
+This is the sixth line, so include it.
+
+
+Press Enter to Exit.
