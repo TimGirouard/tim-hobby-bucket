@@ -1,0 +1,31 @@
+package chapter.two.hello_world;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		WorldGen earth = new WorldGen("Earth", 5973, 9.78);
+		earth.setPlanetColonies(1);
+		earth.setPlanetMilitary(1);
+		earth.setColonyImmigration(1000);
+		earth.setBaseProtection(100);
+		earth.turnForceFieldOn();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+
+}
+
+

@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\Users\tgirouard\Documents\Personal_Docs\Android_Work\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2455300115.index
+1633959030.index
+475340983.index
+574389673.index
+3441175534.index
+2571136588.index
+2674541287.index

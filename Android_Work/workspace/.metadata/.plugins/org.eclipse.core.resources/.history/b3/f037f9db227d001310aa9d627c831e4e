@@ -1,0 +1,79 @@
+package chapter.two.hello_world;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	public WorldGen (String name, int mass, double gravity) {
+		
+		/* Set Variables */
+		planetName = name;
+		planetMass = mass;
+		planetGravity = gravity;
+		planetColonies = 0;
+		planetPopulation = 0;
+		planetBases = 0;
+		planetMilitary = 0;
+		planetProtection = false;
+
+		/* Set Functions */
+		void setPlanetColonies     (int numColonies) {
+			planetColonies += numColonies;
+		}
+		int  getPlanetColonies     () {
+			
+		}
+		void setPlanetMilitary     (int numBases) {
+			planetBases += numBases;
+		}
+		int  getPlanetMilitary     () {
+
+		}
+		void turnForceFieldOn      () {
+			planetProtection = true;
+		}
+		void turnForceFieldOff     () {
+			planetProtection = false;
+		}
+		boolean getForceFieldState () {
+
+		}
+		void setColonyImmigration  (int numColonists) {
+			planetPopulation += numColonists;
+		}
+		long getColonyImmigration  () {
+
+		}
+		void setBaseProtection     (int numForces) {
+			planetMilitary += numForces;
+		}
+		int  getBaseProtection     () {
+
+		}
+	}
+}
+
+
+String planetName = "Earth";
+int planetMass;
+double planetGravity;
+int planetColonies;
+long planetPopulation;
+int planetBases;
+int planetMilitary;
+boolean planetProtection;

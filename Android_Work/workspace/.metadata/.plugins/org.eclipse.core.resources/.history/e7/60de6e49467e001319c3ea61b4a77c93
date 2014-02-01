@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+		android:contentDescription="@string/content_desc_earth"
+        android:id="@+id/imageEarth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+		android:contentDescription="@string/content_desc_mars"
+        android:id="@+id/imageMars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+    
+    <ImageView
+		android:contentDescription="@string/content_desc_venus"
+        android:id="@+id/imageVenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+    
+    <ImageView
+		android:contentDescription="@string/content_desc_jupiter"
+        android:id="@+id/imageJupiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+    
+    <ImageView
+		android:contentDescription="@string/content_desc_saturn"
+        android:id="@+id/imageSaturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+    
+    <ImageView
+		android:contentDescription="@string/content_desc_neptune"
+        android:id="@+id/imageNeptune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+</RelativeLayout>

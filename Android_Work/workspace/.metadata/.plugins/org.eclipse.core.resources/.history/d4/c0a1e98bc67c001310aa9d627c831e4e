@@ -1,0 +1,43 @@
+package chapter.two.hello_world;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
+String planetName = "Earth"; (shown only to demonstrate how to set a default value)
+int planetMass;
+double planetGravity;
+int planetColonies;
+long planetPopulation;
+int planetBases;
+int planetMilitary;
+boolean planetProtection;
+
+public WorldGen            (String name, int mass, double gravity) {...}
+void setPlanetColonies     (int numColonies) {...}
+int  getPlanetColonies     () {...}
+void setPlanetMilitary     (int numBases) {...}
+int  getPlanetMilitary     () {...}
+void turnForceFieldOn      () {...}
+void turnForceFieldOff     () {...}
+boolean getForceFieldState () {...}
+void setColonyImmigration  (int numColonists) {...}
+long getColonyImmigration  () {...}
+void setBaseProtection     (int numForces) {...}
+int  getBaseProtection     () {...}

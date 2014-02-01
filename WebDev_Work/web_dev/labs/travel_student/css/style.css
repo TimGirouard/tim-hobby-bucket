@@ -1,0 +1,35 @@
+body{
+	font-size: 32px
+}
+p{
+	color:pink
+}
+h2{
+	border:1px black;
+	padding:10px;
+	margin:52px;
+}
+#vienna{
+	color:white;
+	background:green;
+}
+#lisbon{
+	background:gray;
+}
+#madrid{
+	color:white;
+	background:green;
+}
+#paris{
+	background:gray;
+}
+.button{
+	border:1px solid black;
+	/*this is a comment*/
+}
+.button:active{
+	box.shadow:0 0 5px #ccc inset;
+}
+.white{
+	color:white;
+}
