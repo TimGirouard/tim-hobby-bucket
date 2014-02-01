@@ -15,10 +15,10 @@ class Pizza(games.Sprite):
             self.dy = -self.dy
 
 def main():
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
-    pizza_image = games.load_image("pizza.bmp")
+    pizza_image = games.load_image("../Res/pizza.bmp")
     the_pizza = Pizza(image = pizza_image,
                          x = games.screen.width/2,
                          y = games.screen.height/2,

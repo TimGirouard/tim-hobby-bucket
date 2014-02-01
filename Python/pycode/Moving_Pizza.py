@@ -5,10 +5,10 @@ from livewires import games
 
 games.init(screen_width = 640, screen_height = 480, fps = 50)
 
-wall_image = games.load_image("wall.jpg", transparent = False)
+wall_image = games.load_image("../Res/wall.jpg", transparent = False)
 games.screen.background = wall_image
 
-pizza_image = games.load_image("pizza.bmp")
+pizza_image = games.load_image("../Res/pizza.bmp")
 
 the_pizza = games.Sprite(image = pizza_image,
                          x = games.screen.width/2,

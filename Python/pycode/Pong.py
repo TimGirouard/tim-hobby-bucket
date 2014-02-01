@@ -9,7 +9,7 @@ games.init(screen_width = 640, screen_height = 480, fps = 50)
 class Pan(games.Sprite):
     """A mouse-controlled paddle."""
 
-    image = games.load_image("pong.jpg")
+    image = games.load_image("../Res/pong.jpg")
 
     def __init__(self):
         super(Pan, self).__init__(image = Pan.image, x = 0, y = games.mouse.y)
@@ -60,10 +60,10 @@ class Pizza(games.Sprite):
             
         
 def main():
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
-    pizza_image = games.load_image("pizza.bmp")
+    pizza_image = games.load_image("../Res/pizza.bmp")
     pizza_x = random.randrange(games.screen.width)
     pizza_y = random.randrange(games.screen.height)
     the_pizza = Pizza(image = pizza_image,
@@ -72,7 +72,7 @@ def main():
                          dx = 1.5, dy = 1.5)
     games.screen.add(the_pizza)
 
-    pan_image = games.load_image("pong.jpg")
+    pan_image = games.load_image("../Res/pong.jpg")
     the_pan = Pan()
     games.screen.add(the_pan)
 

@@ -9,7 +9,7 @@ import pickle, shelve
 #names = ["Johnny", "Jimmy"]
 #highscores = ["5", "5"]
 
-#f = open("high_scores.dat", "wb")
+#f = open("../Res/high_scores.dat", "wb")
 
 #pickle.dump(names, f)
 #pickle.dump(highscores, f)
@@ -18,7 +18,7 @@ import pickle, shelve
 #Unpickle the lists
 
 print("\nUnpickling lists.")
-f = open("high_scores.dat", "rb")
+f = open("../Res/high_scores.dat", "rb")
 names = pickle.load(f)
 highscores = pickle.load(f)
 

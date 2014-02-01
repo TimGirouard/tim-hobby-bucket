@@ -8,7 +8,7 @@ games.init(screen_width = 640, screen_height = 480, fps = 50)
 
 class Pan(games.Sprite):
     """A mouse-controlled pan to catch the pizzas."""
-    image = games.load_image("pan.bmp")
+    image = games.load_image("../Res/pan.bmp")
     #games.screen.add(the_pan)
     def __init__(self):
         """Initialize Pan object and create Text object for score."""
@@ -49,7 +49,7 @@ class Pan(games.Sprite):
 
 class Pizza(games.Sprite):
     """A falling pizza."""
-    image = games.load_image("pizza.bmp")
+    image = games.load_image("../Res/pizza.bmp")
     speed = 1
     level = 2
     count = 0
@@ -96,7 +96,7 @@ class Pizza(games.Sprite):
 
 class Chef(games.Sprite):
     """A chef that moves left and right, dropping pizzas."""
-    image=games.load_image("chef.bmp")
+    image=games.load_image("../Res/chef.bmp")
     pizzas = 0
     def __init__(self,y=55,speed=2,odds_change=200):
         """Initialize the Chef object."""
@@ -133,7 +133,7 @@ class Chef(games.Sprite):
        
 def main():
     """Play the game."""
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
     the_chef=Chef()

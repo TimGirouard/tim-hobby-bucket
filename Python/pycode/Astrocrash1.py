@@ -11,9 +11,9 @@ class Asteroid(games.Sprite):
     SMALL = 1
     MEDIUM = 2
     LARGE = 3
-    images = {SMALL: games.load_image("asteroid_small.bmp"),
-              MEDIUM: games.load_image("asteroid_med.bmp"),
-              LARGE: games.load_image("asteroid_big.bmp")}
+    images = {SMALL: games.load_image("../Res/asteroid_small.bmp"),
+              MEDIUM: games.load_image("../Res/asteroid_med.bmp"),
+              LARGE: games.load_image("../Res/asteroid_big.bmp")}
     SPEED = 2
 
     def __init__(self,x,y,size):
@@ -41,7 +41,7 @@ class Asteroid(games.Sprite):
 
 def main():
     #establish background
-    nebula_image = games.load_image("nebula.jpg")
+    nebula_image = games.load_image("../Res/nebula.jpg")
     games.screen.background = nebula_image
 
     #create 8 asteroids

@@ -22,10 +22,10 @@ class Ship(games.Sprite):
             self.x += 1
 
 def main():
-    nebula_image = games.load_image("nebula.jpg", transparent=False)
+    nebula_image = games.load_image("../Res/nebula.jpg", transparent=False)
     games.screen.background = nebula_image
 
-    ship_image = games.load_image("ship.bmp")
+    ship_image = games.load_image("../Res/ship.bmp")
     the_ship = Ship(image = ship_image,
                     x = games.screen.width/2,
                     y = games.screen.height/2)

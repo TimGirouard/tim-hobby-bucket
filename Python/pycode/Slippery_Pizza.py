@@ -26,17 +26,17 @@ class Pizza(games.Sprite):
         self.y = random.randrange(games.screen.height)
         
 def main():
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
-    pizza_image = games.load_image("pizza.bmp")
+    pizza_image = games.load_image("../Res/pizza.bmp")
     pizza_x = random.randrange(games.screen.width)
     pizza_y = random.randrange(games.screen.height)
     the_pizza = Pizza(image = pizza_image,
                       x = pizza_x, y = pizza_y)
     games.screen.add(the_pizza)
 
-    pan_image = games.load_image("pan.bmp")
+    pan_image = games.load_image("../Res/pan.bmp")
     the_pan = Pan(image = pan_image,
                          x = games.mouse.x,
                          y = games.mouse.y)

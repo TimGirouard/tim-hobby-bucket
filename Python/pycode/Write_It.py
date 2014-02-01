@@ -4,7 +4,7 @@
 #Open write_it.txt
 
 print("Creating a text file with the write() method.")
-text_file = open("write_it.txt", "w")
+text_file = open("../Res/write_it.txt", "w")
 
 #Fill the file
 
@@ -16,7 +16,7 @@ text_file.close()
 #Read the results
 
 print("\nReading the newly created file.")
-text_file = open("write_it.txt", "r")
+text_file = open("../Res/write_it.txt", "r")
 print(text_file.read())
 text_file.close()
 
@@ -25,7 +25,7 @@ text_file.close()
 #Open write_it.txt
 
 print("\nCreating a text file with the writelines() method.")
-text_file = open("write_it.txt", "w")
+text_file = open("../Res/write_it.txt", "w")
 
 #Fill the file
 
@@ -38,7 +38,7 @@ text_file.close()
 #Read the results
 
 print("\nReading the newly created file.")
-text_file = open("write_it.txt", "r")
+text_file = open("../Res/write_it.txt", "r")
 print(text_file.read())
 text_file.close()
 

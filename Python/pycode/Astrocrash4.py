@@ -8,8 +8,8 @@ games.init(screen_width = 640, screen_height = 480, fps = 50)
 
 class Missile(games.Sprite):
     """A missile launched by a ship."""
-    image = games.load_image("missile.bmp")
-    sound = games.load_sound("missile.wav")
+    image = games.load_image("../Res/missile.bmp")
+    sound = games.load_sound("../Res/missile.wav")
 
     BUFFER = 40
     VELOCITY_FACTOR = 7
@@ -64,8 +64,8 @@ class Missile(games.Sprite):
 
 class Ship(games.Sprite):
     """The player's ship."""
-    image = games.load_image("ship.bmp")
-    sound = games.load_sound("thrust.wav")
+    image = games.load_image("../Res/ship.bmp")
+    sound = games.load_sound("../Res/thrust.wav")
     ROTATION_STEP = 3
     VELOCITY_STEP = .03
 
@@ -106,9 +106,9 @@ class Asteroid(games.Sprite):
     SMALL = 1
     MEDIUM = 2
     LARGE = 3
-    images = {SMALL: games.load_image("asteroid_small.bmp"),
-              MEDIUM: games.load_image("asteroid_med.bmp"),
-              LARGE: games.load_image("asteroid_big.bmp")}
+    images = {SMALL: games.load_image("../Res/asteroid_small.bmp"),
+              MEDIUM: games.load_image("../Res/asteroid_med.bmp"),
+              LARGE: games.load_image("../Res/asteroid_big.bmp")}
     SPEED = 2
 
     def __init__(self,x,y,size):
@@ -136,7 +136,7 @@ class Asteroid(games.Sprite):
 
 def main():
     #establish background
-    nebula_image = games.load_image("nebula.jpg")
+    nebula_image = games.load_image("../Res/nebula.jpg")
     games.screen.background = nebula_image
 
     #create the ship

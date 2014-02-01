@@ -10,7 +10,7 @@ variety = ["sweet", "hot", "dill"]
 shape = ["whole", "spear", "chip"]
 brand = ["Claussen", "Heinz", "Vlassic"]
 
-f = open("pickles1.dat", "wb")
+f = open("../Res/pickles1.dat", "wb")
 
 pickle.dump(variety, f)
 pickle.dump(shape, f)
@@ -20,7 +20,7 @@ f.close()
 #Unpickle the lists
 
 print("\nUnpickling lists.")
-f = open("pickles1.dat", "rb")
+f = open("../Res/pickles1.dat", "rb")
 variety = pickle.load(f)
 shape = pickle.load(f)
 brand = pickle.load(f)
@@ -33,7 +33,7 @@ f.close()
 #Create a shelf
 
 print("\nShelving lists.")
-s = shelve.open("pickles2.dat")
+s = shelve.open("../Res/pickles2.dat")
 
 s["variety"] = ["sweet", "hot", "dill"]
 s["shape"] = ["whole", "spear", "chip"]

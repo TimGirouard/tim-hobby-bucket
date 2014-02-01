@@ -11,7 +11,7 @@ class Abu(games.Sprite):
     """
     A pan controlled by player to catch falling pizzas.
     """
-    image = games.load_image("abu.gif")
+    image = games.load_image("../Res/abu.gif")
 
     def __init__(self):
         """ Initialize Pan object and create Text object for score. """
@@ -66,7 +66,7 @@ class Pizza(games.Sprite):
     """
     A pizza which falls to the ground.
     """ 
-    image = games.load_image("pizzabig.bmp")
+    image = games.load_image("../Res/pizzabig.bmp")
     speed = 1
     hit_bottom = 0
 
@@ -102,7 +102,7 @@ class Chef(games.Sprite):
     """
     A chef which moves left and right, dropping pizzas.
     """
-    image = games.load_image("pizzabig.bmp")
+    image = games.load_image("../Res/pizzabig.bmp")
 
     def __init__(self, y = 55, speed = 2, odds_change = 200):
         """ Initialize the Chef object. """
@@ -138,7 +138,7 @@ class Chef(games.Sprite):
 
 def main():
     """ Play the game. """
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
     the_chef = Chef()

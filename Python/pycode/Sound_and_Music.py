@@ -6,10 +6,10 @@ from livewires import games
 games.init(screen_width = 640, screen_height = 480, fps = 50)
 
 #load a sound file
-missile_sound = games.load_sound("missile.wav")
+missile_sound = games.load_sound("../Res/missile.wav")
 
 #load a music file
-games.music.load("theme.mid")
+games.music.load("../Res/theme.mid")
 
 choice = None
 while choice != "0":

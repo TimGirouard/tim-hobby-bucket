@@ -13,10 +13,10 @@ class Pan(games.Sprite):
         self.y = games.mouse.y
         
 def main():
-    wall_image = games.load_image("wall.jpg", transparent = False)
+    wall_image = games.load_image("../Res/wall.jpg", transparent = False)
     games.screen.background = wall_image
 
-    pan_image = games.load_image("pan.bmp")
+    pan_image = games.load_image("../Res/pan.bmp")
     the_pan = Pan(image = pan_image,
                          x = games.mouse.x,
                          y = games.mouse.y)

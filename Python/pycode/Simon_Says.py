@@ -151,7 +151,7 @@ class Game(object):
 
     def play(self):
 
-        black_image = games.load_image("black.jpg", transparent=False)
+        black_image = games.load_image("../Res/black.jpg", transparent=False)
         games.screen.background = black_image
         t1 = threading.Timer(0.1, self.welcome_message)
         #time.sleep(Color.PAUSE)
