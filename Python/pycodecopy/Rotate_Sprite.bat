@@ -1,2 +1,0 @@
-Rotate_Sprite.py
-pause

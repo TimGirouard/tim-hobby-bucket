@@ -1,2 +1,0 @@
-Astrocrash5.py
-pause

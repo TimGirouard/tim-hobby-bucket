@@ -1,0 +1,9 @@
+--- version1.txt	2014-01-09 12:15:13.051807388 -0800
++++ version2.txt	2014-01-09 12:15:48.431807062 -0800
+@@ -1,5 +1,5 @@
+ this is the original text
+ line2
+-line3
+ line4
+ happy hacking !
++GNU is not UNIX

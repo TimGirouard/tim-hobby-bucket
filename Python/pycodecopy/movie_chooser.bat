@@ -1,2 +1,0 @@
-Movie_Chooser.py
-pause

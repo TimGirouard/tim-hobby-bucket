@@ -1,2 +1,0 @@
-Simon_Says.py
-pause

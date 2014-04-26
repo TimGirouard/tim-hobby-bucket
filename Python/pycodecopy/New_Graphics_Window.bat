@@ -1,2 +1,0 @@
-New_Graphics_Window.py
-pause

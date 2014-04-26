@@ -1,2 +1,0 @@
-Guess_My_Number_GUI.py
-pause

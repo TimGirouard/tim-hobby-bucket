@@ -1,0 +1,19 @@
+Script started on Mon 06 Jan 2014 06:00:36 AM PST
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ ls
+a1             input.txt         output.txt   [0m[01;32msleep.sh[0m           timing.log
+a2             [01;32mlogfileheader.sh[0m  out.txt      [01;32msuccess_test.sh[0m    [01;32mvariables.sh[0m
+a3             log.txt           [01;32mpassword.sh[0m  [01;32msuperusercheck.sh[0m
+[01;32mchange_ifs.sh[0m  [01;32mmathinshell.sh[0m    [01;32mprintf.sh[0m    temp.txt
+[01;32mdebug.sh[0m       output.session    [01;32mscript.sh[0m    [01;32mtime_take.sh[0m
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ cp output.txt ./
+cp: `output.txt' and `./output.txt' are the same file
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ cp output.txt ././
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ rm ../output.txt
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ rm ../output.txt
+rm: cannot remove `../output.txt': No such file or directory
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ pwd
+/home/adolynskyy/Scripts
+]0;adolynskyy@ubuntu: ~/Scriptsadolynskyy@ubuntu:~/Scripts$ exit
+exit
+
+Script done on Mon 06 Jan 2014 06:01:51 AM PST

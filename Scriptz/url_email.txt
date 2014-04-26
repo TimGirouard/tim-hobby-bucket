@@ -1,0 +1,3 @@
+this is a line of text contain,<email> #slynux@slynux.com </email> and email address, 
+blog "http://www.google.com", test@yahoo.com dfdfdfdfff;cool.hacks@gmail.com<br />
+<a href="http://code.google-butts.com"><h1>Heading</h1>
